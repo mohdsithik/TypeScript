@@ -39,6 +39,7 @@ export const RecommendationCard = () => {
                     showsHorizontalScrollIndicator={false}
                     contentContainerStyle={Styles.FlatePadding}
                 />
+                <SliderComponent/>
                
             </LinearGradient>
         </View>

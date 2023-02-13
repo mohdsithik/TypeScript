@@ -1,14 +1,16 @@
 import {StyleSheet} from 'react-native';
+
 const COLORS = {
     BLACK: 'black',
     WHITE: 'white',
 };
 export const styles = StyleSheet.create({
     container: {
-        alignItems: 'stretch',
-        justifyContent: 'flex-start',
-        margin: 20,
-        paddingBottom: 32,
+        // alignItems: 'stretch',
+        // justifyContent: 'flex-start',
+        marginLeft: 20,
+        marginRight:20
+        // paddingBottom: 32,
     },
     // sliderContainer: {
     //     paddingVertical: 16,
@@ -16,6 +18,8 @@ export const styles = StyleSheet.create({
     titleContainer: {
         alignItems: 'center',
         justifyContent: 'center',
+        backgroundColor:'red',
+        // width:"100%"
     },
     vertical: {
       
@@ -29,7 +33,14 @@ export const styles = StyleSheet.create({
     mainContiner:{
       // backgroundColor:'gray',
       // bordorColor:'pink'
-    }
+    },
+    sliderTitle:{
+        // flexDirection:"row",
+        // justifyContent:'space-between',
+        // color:"red",
+        // width:300
+    },
+    
 });
 export const iosStyles = StyleSheet.create({
     thumb: {
@@ -227,8 +238,8 @@ export const customStyles5 = StyleSheet.create({
 //         width: thumbnailWidth,
 //     },
 // });
-const borderWidth = 3.5;
-const borderRadius=13;
+const borderWidth = 3;
+const borderRadius=12;
 const width=17;
 const height=17;
 const backgroungColor=COLORS.WHITE
@@ -237,7 +248,7 @@ export const trackMarkStyles = StyleSheet.create({
         // backgroungColor:'red',
         borderColor: 'white',
         borderWidth,
-          borderRadius,
+        borderRadius,
         shadowColor: '#31a4db',
         shadowOffset: {
             width: 1,
@@ -259,4 +270,6 @@ export const trackMarkStyles = StyleSheet.create({
         borderWidth,
         borderRadius,
     },
+    
+    
 });

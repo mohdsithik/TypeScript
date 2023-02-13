@@ -27,7 +27,7 @@ const Login = () => {
       <View style={Styles.mainContainer}>
         <RecommendationCard />
         <UpcommingBookingCard />
-      <SliderComponent/>
+      {/* <SliderComponent/> */}
                
             
       </View>

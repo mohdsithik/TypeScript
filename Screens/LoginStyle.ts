@@ -64,7 +64,7 @@ const Styles = StyleSheet.create({
     },
     linearGradient:{
         width:'100%',
-        height:Dimention.n(350)
+        height:Dimention.n(430)
     },
     renderUpcommingDataCard:{
         height:Dimention.n(300),
@@ -115,6 +115,16 @@ const Styles = StyleSheet.create({
         color:'#333333',
         fontFamily:'Poppins-Regular',
         marginLeft:Dimention.n(20),
+    },
+    textColor:{
+        color:"#333333",
+        fontFamily:'Poppins-SemiBold',
+        fontSize:Dimention.n(12)
+    },
+    textColor2:{
+        fontFamily:"Poppins-Medium",
+        color:"gray",
+        fontSize:Dimention.n(12)
     }
 })
 export default Styles;
