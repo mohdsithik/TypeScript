@@ -2,14 +2,8 @@
 import * as React from 'react';
 import { SafeAreaView, ScrollView, Text, View } from 'react-native';
 import { Slider } from '@miblanchard/react-native-slider';
-import Styles from './LoginStyle';
-// styles
-import {
-  customStyles5,
-  iosStyles,
-  styles,
-  trackMarkStyles,
-} from './sliderContinerStyle';
+import {Styles} from './LoginStyle';
+
 
 
 
@@ -41,8 +35,8 @@ const SliderContainer = (props: {
         value || (Array.isArray(value) && value[0]) || 0;
       const style =
         currentMarkValue > Math.max(currentSliderValue)
-          ? trackMarkStyles.inactive
-          : trackMarkStyles.activeMark;
+          ? Styles.inactive
+          : Styles.activeMark;
       return <View style={style} />;
     };
   }
@@ -68,7 +62,7 @@ const SliderContainer = (props: {
         <View style={{justifyContent:"space-between",flexDirection:'row',alignContent:'center'}}>{trackValue.map((text)=>{
         return(
           <View>
-          <Text style={(text==trackValue[value[1]-1] || text==trackValue[value[0]-1]) ? Styles.textColor : Styles.textColor2}>{text}</Text>
+          <Text style={(text==trackValue[value[1]-1] || text==trackValue[value[0]-1]) ? Styles.textColor : Styles.textColor2} key={Math.random()+1}>{text}</Text>
         </View>
         )
       })}
@@ -84,20 +78,20 @@ const SliderContainer = (props: {
 const track = [1,2,3,4,5];
  export const SliderComponent = () => (
 
-   <View style={styles.mainContiner}>
-    <ScrollView contentContainerStyle={styles.container}>
+   <View>
+    <ScrollView contentContainerStyle={Styles.container}>
         <SliderContainer
           caption="<Slider/> to test click rounding"
           trackMarks={track}
           sliderValue={[2, 3]}
           >
           <Slider
-          thumbStyle={iosStyles.thumb}
+          thumbStyle={Styles.thumb}
           value={1}
           minimumValue={1}
           maximumValue={5}
           step={1}
-          trackStyle={customStyles5.track}
+          trackStyle={Styles.track}
           minimumTrackTintColor="#169EDE"
           
          />

@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, Image, TextInputComponent, FlatList } from "react-native";
-import Styles from "./LoginStyle";
+import { Styles } from "./LoginStyle";
 import { UpcommingBookingData } from "./Types";
 import UpcommingData from "../JsonDatas/UpcommingData.json";
 import { HeaderSection } from "./HeaderSection";

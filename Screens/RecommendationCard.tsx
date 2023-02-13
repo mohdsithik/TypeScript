@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, FlatList, ImageBackground } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
-import Styles from "./LoginStyle";
+import {Styles} from "./LoginStyle";
 import { DataType } from "./Types";
 import { HeaderSection } from "./HeaderSection";
 import Data from './Data.json';

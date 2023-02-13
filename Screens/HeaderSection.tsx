@@ -1,6 +1,6 @@
 import React,{FC} from "react";
 import { View,Text } from "react-native";
-import Styles from "./LoginStyle";
+import {Styles} from "./LoginStyle";
 
 interface HeaderSectionType{
     title : string,

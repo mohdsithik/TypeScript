@@ -1,0 +1,47 @@
+[
+    {
+        "title": "18th Jan,Wed",
+        "data": [
+            {
+                "adults": "2",
+                "child": "1",
+                "image": "https://newprofilepic2.photo-cdn.net//assets/images/article/profile.jpg",
+                "name": "Scuba Diving"
+            }
+        ]
+    },
+    {
+        "title": "19th Jan,Wed",
+        "data": [
+            {
+                "adults": "2",
+                "child": "1",
+                "image": "https://goodmorningimagesforlover.com/wp-content/uploads/2019/06/whatsapp-profile-picture-for-panjabi.jpg",
+                "name": "Scuba Diving"
+            },
+            {
+                "adults": "1",
+                "child": "1",
+                "image": "https://newprofilepic2.photo-cdn.net//assets/images/article/profile.jpg",
+                "name": "Malar"
+            },
+            {
+                "adults": "2",
+                "child": "3",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxUXYmbcwcoIYKhXgzZut6BPn_7FsIi1VL5A&usqp=CAU",
+                "name": "Naveen"
+            }
+        ]
+    },
+    {
+        "title": "20th Jan,Fri",
+        "data": [
+            {
+                "adults": "3",
+                "child": "1",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkH6AvjoEnkfYmfOZx18UtMdRuohE51DsDYw&usqp=CAU",
+                "name": "VenuG"
+            }
+        ]
+    }
+]

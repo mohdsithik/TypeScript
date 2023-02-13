@@ -3,11 +3,11 @@ import { View,SectionList } from "react-native";
 import MakeTrip from "../JsonDatas/MakeTrip.json";
 import {HeaderLine,ProfileContent} from "./HeaderLine";
 import { HeaderSection } from "./HeaderSection";
-const Landing = () => {
+const MakeYourTrip = () => {
     
     return (
       
-      <View>
+      <View style={{backgroundColor:'#F4F6F7'}}>
         <HeaderSection title="Make your trip eventful" description="Make the most of it with Club Mahindra" />
 
 
@@ -29,4 +29,4 @@ const Landing = () => {
       </View>
     )
 }
-export default Landing;
+export default MakeYourTrip;

@@ -1,14 +1,13 @@
 import React, { useState } from "react";
 import { useNavigation } from "@react-navigation/native";
 import { StackNavigationProp } from "@react-navigation/stack";
-import { View, ScrollView } from "react-native";
+import { View, ScrollView,Pressable,Text } from "react-native";
 import { AppStackParam } from "../App";
 import { RecommendationCard } from "./RecommendationCard";
 import { UpcommingBookingCard } from "./UpcommingBookingCard";
-import Styles from "./LoginStyle";
-// import { SliderContainer } from "./sliderContainer";
-import { Slider } from '@miblanchard/react-native-slider';
-import { SliderComponent } from "./sliderContainer";
+import {Styles} from "./LoginStyle";
+import MakeYourTrip from "./MakeYourTrip";
+
 type authScreenProp = StackNavigationProp<AppStackParam, 'Login'>
 
 
@@ -27,9 +26,11 @@ const Login = () => {
       <View style={Styles.mainContainer}>
         <RecommendationCard />
         <UpcommingBookingCard />
-      {/* <SliderComponent/> */}
+     {/* <Pressable onPress={()=>navigation.navigate("Landing")}>
+      <Text style={{color:'red'}}>click</Text>
+     </Pressable> */}
                
-            
+         <MakeYourTrip/>   
       </View>
 
     </ScrollView>
