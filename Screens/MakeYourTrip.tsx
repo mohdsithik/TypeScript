@@ -8,7 +8,8 @@ const MakeYourTrip = () => {
     return (
       
       <View style={{backgroundColor:'#F4F6F7'}}>
-        <HeaderSection title="Make your trip eventful" description="Make the most of it with Club Mahindra" />
+        <HeaderSection title="Make your trip eventful"
+         description="Make the most of it with Club Mahindra" />
 
 
         <SectionList

@@ -22,18 +22,18 @@ const Login = () => {
   const navigation = useNavigation<authScreenProp>();
 
   return (
-    <ScrollView>
+    <ScrollView  nestedScrollEnabled={false} >
       <View style={Styles.mainContainer}>
         <RecommendationCard />
         <UpcommingBookingCard />
-     {/* <Pressable onPress={()=>navigation.navigate("Landing")}>
+     <Pressable onPress={()=>navigation.navigate("Landing")}>
       <Text style={{color:'red'}}>click</Text>
-     </Pressable> */}
+     </Pressable>
                
          <MakeYourTrip/>   
       </View>
 
-    </ScrollView>
+    </ScrollView> 
 
 
 

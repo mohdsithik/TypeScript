@@ -182,7 +182,8 @@ export const MakeTripStyle=StyleSheet.create({
         fontSize:Dimention.n(14),
         height:20,
         // backgroundColor:'pink',
-        width:Dimention.n(102)
+        width:Dimention.n(102),
+        // marginLeft:Dimention.n(20)
         
     },
     profileIcon:{
@@ -208,21 +209,127 @@ export const MakeTripStyle=StyleSheet.create({
         flexDirection: 'row',
         marginTop:Dimention.n(24), 
         justifyContent: 'space-evenly',
-        marginLeft:Dimention.n(20)
+        marginLeft:Dimention.n(1),
+        // backgroundColor:'red'
     },
     lineBorder:{
-        height: Dimention.n(2), 
+        height: Dimention.n(1.5), 
         backgroundColor: '#E0E0E0', 
-        width: Dimention.n(217), 
-        marginTop: Dimention.n(10), 
-        marginLeft:Dimention.n(20)
+        width: Dimention.n(200),
+        marginTop: Dimention.n(8), 
+        // marginLeft:Dimention.n(1)
     },
     profileContentStyle:{
         justifyContent:'flex-start',
         flexDirection:'row',
         height:Dimention.n(48),
         marginTop:Dimention.n(24),
-        marginLeft:Dimention.n(10)
+        // marginLeft:Dimention.n(10)
     }
+})
+
+export const SplitBookingCard=StyleSheet.create({
+    topCard:{
+        backgroundColor:'#DFF3FA',
+        width:Dimention.n(335),
+        height:Dimention.n(162),
+        margin:Dimention.n(20),
+        borderRadius:Dimention.n(12),
+        elevation:5
+  },
+  innerCard:{
+    backgroundColor:'#169EDE',
+        width:Dimention.n(335),
+        height:Dimention.n(90),
+        borderRadius:Dimention.n(12),
+        elevation:5,
+  },
+  smallCard:{
+    backgroundColor:'#DFF3FA',
+    width:Dimention.n(118),
+    height:Dimention.n(27),
+    borderRadius:Dimention.n(6),
+    textAlign:'center',
+    alignSelf:'center',
+    marginTop:Dimention.n(-10),
+    elevation:6,
+    padding:Dimention.n(3),
+    color:"#2E2E2E",
+    fontFamily:'Poppins-Medium',
+    fontSize:Dimention.n(13)
+    
+  },
+  lineBorder:{
+    height:3,
+    backgroundColor:'#1DADE3',
+    width:81,
+    marginTop:1,
+
+
+  },
+  lableTitle:{
+    color:"#FFFFFF",
+    fontSize:Dimention.n(12),
+    fontFamily:"Poppins-Regular"
+  },
+  Content:{
+    color:'#FFFFFF',
+    fontFamily:'Poppins-SemiBold',
+    fontSize:Dimention.n(16)
+  },
+  outerLableTitle:{
+    color:'#757575',
+    fontFamily:'Poppins-Regular',
+    fontSize:Dimention.n(12),
+  },
+  outerLableContent:{
+    color:'#333333',
+    fontSize:Dimention.n(16),
+    fontFamily:"Poppins-SemiBold"
+  },
+  sectionListTitle:{
+    marginLeft:20,
+    color:"#333333",
+    fontSize:Dimention.n(14),
+    fontFamily:"Poppins-SemiBold",
+    // backgroundColor:'red',
+    width:Dimention.n(105),
+    height:Dimention.n(20),
+    marginTop:Dimention.n(24)
+  },
+  roomsDetails:{
+    width:Dimention.n(101),
+    height:Dimention.n(52),
+    borderColor:"#1DADE3",
+    borderWidth:Dimention.n(1),
+    borderRadius:Dimention.n(8),
+    marginRight:Dimention.n(8),
+    // padding:8
+    marginTop:8
+    
+  },
+  BedRooms:{
+    color:'#333333',
+    fontFamily:"Poppins-SemiBold",
+    fontSize:Dimention.n(16),
+    marginLeft:12,
+    // backgroundColor:'red',
+    // width:33,
+    height:23,
+    marginTop:5
+  },
+  rooms:{
+    color:'#757575',
+    fontFamily:'Poppins-Regular',
+    fontSize:Dimention.n(14),
+    marginLeft:12
+  },
+  hLine:{
+    height:Dimention.n(60),
+    width:Dimention.n(0.7),
+    backgroundColor:'gray',
+    marginLeft:Dimention.n(16),
+    marginRight:Dimention.n(4),
+  }
 })
 

@@ -1,0 +1,67 @@
+[
+    {
+      "title":"10th May,Wed",
+      "data":[
+        {
+          "BedRomms":"1",
+          "Rooms":"2"
+        }
+      ]
+    },
+     {
+      "title":"11th Jun,Sun",
+      "data":[
+        {
+          "BedRomms":"2",
+          "Rooms":"3"
+        },
+         {
+          "BedRomms":"1",
+          "Rooms":"2"
+        },
+         {
+          "BedRomms":"5",
+          "Rooms":"1"
+        }
+      ]
+    },
+     {
+      "title":"13th Jun,Tue",
+      "data":[
+        {
+          "BedRomms":"1",
+          "Rooms":"2"
+        }
+      ]
+    },
+     {
+      "title":"1th Jul,Mon",
+      "data":[
+        {
+          "BedRomms":"2",
+          "Rooms":"2"
+        },
+        {
+          "BedRomms":"1",
+          "Rooms":"0"
+        },
+        {
+          "BedRomms":"5",
+          "Rooms":"2"
+        }
+      ]
+    },
+     {
+      "title":"16th Aug,Sun",
+      "data":[
+        {
+          "BedRomms":"1",
+          "Rooms":"2"
+        },
+        {
+          "BedRomms":"1",
+          "Rooms":"2"
+        }
+      ]
+    }
+  ]

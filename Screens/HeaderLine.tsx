@@ -1,8 +1,17 @@
 import React from "react";
 import { View, Text,Image, StyleSheet } from "react-native";
 import { MakeTripStyle } from "./LoginStyle";
-export const HeaderLine = (props) => {
-  
+interface ProfileContentPropsType{
+    image:string,
+    adults:string,
+    child:string,
+    name:string
+  };
+interface propsType{
+    title:string
+};
+  export const HeaderLine = (props : propsType) => {
+
 
     return (
         <View>
@@ -14,15 +23,14 @@ export const HeaderLine = (props) => {
         </View>
     )
 }
-// export default HeaderLine;
-export const ProfileContent=(props)=>{
+export const ProfileContent=(ProfileContentProps : ProfileContentPropsType)=>{
     return(
         <View style={MakeTripStyle.profileContentStyle} >
               
-        <Image style={MakeTripStyle.profileIcon} source={{uri : props.image}} />
+        <Image style={MakeTripStyle.profileIcon} source={{uri : ProfileContentProps.image}} />
         <View style={{marginTop:4}}>
-        <Text style={MakeTripStyle.childAdult}>{props.adults}Adults {props.child}Child</Text>
-        <Text style={MakeTripStyle.userName}>{props.name}</Text>
+        <Text style={MakeTripStyle.childAdult}>{ProfileContentProps.adults}Adults {ProfileContentProps.child}Child</Text>
+        <Text style={MakeTripStyle.userName}>{ProfileContentProps.name}</Text>
         </View>
       </View>
     )
