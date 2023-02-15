@@ -5,7 +5,7 @@ import SplitBookingRoomsTypesData from "../JsonDatas/SplitBookingRoomsTypesData.
 import { SplitBookingCard } from "./LoginStyle";
 import { HeaderSection } from "./HeaderSection";
 
-const Landing=()=>{
+const SplitBooking=()=>{
   let Data=SplitBookingData;
 
   let length=Object.keys(Data).length;
@@ -96,4 +96,4 @@ const Landing=()=>{
     </View>
   )
 }
-export default Landing
+export default SplitBooking

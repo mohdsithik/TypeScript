@@ -7,6 +7,8 @@ import { RecommendationCard } from "./RecommendationCard";
 import { UpcommingBookingCard } from "./UpcommingBookingCard";
 import {Styles} from "./LoginStyle";
 import MakeYourTrip from "./MakeYourTrip";
+import Landing from "./Landing";
+import SplitBooking from "./SplitBooking";
 
 type authScreenProp = StackNavigationProp<AppStackParam, 'Login'>
 
@@ -30,7 +32,8 @@ const Login = () => {
       <Text style={{color:'red'}}>click</Text>
      </Pressable>
                
-         <MakeYourTrip/>   
+      <MakeYourTrip/> 
+      <SplitBooking/>  
       </View>
 
     </ScrollView> 

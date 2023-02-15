@@ -235,7 +235,8 @@ export const SplitBookingCard=StyleSheet.create({
         height:Dimention.n(162),
         margin:Dimention.n(20),
         borderRadius:Dimention.n(12),
-        elevation:5
+        elevation:5,
+        
   },
   innerCard:{
     backgroundColor:'#169EDE',
@@ -263,7 +264,7 @@ export const SplitBookingCard=StyleSheet.create({
     height:3,
     backgroundColor:'#1DADE3',
     width:81,
-    marginTop:1,
+    marginTop:2.5,
 
 
   },
@@ -325,11 +326,36 @@ export const SplitBookingCard=StyleSheet.create({
     marginLeft:12
   },
   hLine:{
-    height:Dimention.n(60),
-    width:Dimention.n(0.7),
+    height:Dimention.n(56),
+    width:Dimention.n(1),
     backgroundColor:'gray',
     marginLeft:Dimention.n(16),
     marginRight:Dimention.n(4),
+  },
+  topBoxTextStyle:{
+    flexDirection:'row',
+    justifyContent:'space-between',
+    marginLeft: Dimention.n(24),
+    marginRight:Dimention.n(24),
+    marginTop:Dimention.n(18)
+  },
+  dotBorder:{
+    backgroundColor:'#1DADE3',
+    width:Dimention.n(8),
+    height:Dimention.n(8),
+    borderRadius:Dimention.n(6)
+  },
+  innerLineAlign:{
+    flexDirection:'row',
+    justifyContent:'space-between',
+    marginTop:Dimention.n(18)
+  },
+  innerBoxAlign:{
+    flexDirection:'row',
+    justifyContent:'space-between',
+    marginLeft:Dimention.n(24),
+    marginRight:Dimention.n(24),
+    marginTop:Dimention.n(18)
   }
 })
 
