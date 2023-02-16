@@ -35,7 +35,7 @@ const SliderContainer = (props: {
         value || (Array.isArray(value) && value[0]) || 0;
       const style =
         currentMarkValue > Math.max(currentSliderValue)
-          ? Styles.inactive
+          ? Styles.activeMark
           : Styles.activeMark;
       return <View style={style} />;
     };

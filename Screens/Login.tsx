@@ -9,6 +9,7 @@ import {Styles} from "./LoginStyle";
 import MakeYourTrip from "./MakeYourTrip";
 import Landing from "./Landing";
 import SplitBooking from "./SplitBooking";
+import ServicesAmenities from './ServicesAmenities'
 
 type authScreenProp = StackNavigationProp<AppStackParam, 'Login'>
 
@@ -33,7 +34,8 @@ const Login = () => {
      </Pressable>
                
       <MakeYourTrip/> 
-      <SplitBooking/>  
+      <SplitBooking/> 
+      <ServicesAmenities/> 
       </View>
 
     </ScrollView> 

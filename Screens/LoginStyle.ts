@@ -133,7 +133,13 @@ export const Styles = StyleSheet.create({
     },
     container: {
         marginLeft: Dimention.n(20),
-        marginRight: Dimention.n(20)
+        marginRight: Dimention.n(20),
+        // margin:40,
+        // padding:25,
+        paddingTop:20,
+        // backgroundColor:'red',
+        marginBottom:0,
+        height:94
     },
     thumb: {
         backgroundColor: "#F4F6F7",
@@ -169,9 +175,17 @@ export const Styles = StyleSheet.create({
         left: Dimention.n(5),
     },
     inactiveMark: {
-        borderColor: 'black',
+        borderColor: 'white',
         borderWidth,
         borderRadius,
+        shadowColor: '#31a4db',
+        shadowOffset: {
+            width: 1,
+            height: 1,
+        },
+        shadowOpacity: Dimention.n(5),
+        shadowRadius: Dimention.n(2),
+        left: Dimention.n(5),
     },
 })
 
@@ -254,7 +268,7 @@ export const SplitBookingCard=StyleSheet.create({
     alignSelf:'center',
     marginTop:Dimention.n(-10),
     elevation:6,
-    padding:Dimention.n(3),
+    padding:Dimention.n(4),
     color:"#2E2E2E",
     fontFamily:'Poppins-Medium',
     fontSize:Dimention.n(13)
@@ -357,5 +371,32 @@ export const SplitBookingCard=StyleSheet.create({
     marginRight:Dimention.n(24),
     marginTop:Dimention.n(18)
   }
+})
+export const ServiceAmenities=StyleSheet.create({
+    contentContainerStyle:{
+      
+        padding: Dimention.n(16),
+       
+       
+    }  ,
+    imageCard:{
+        width:Dimention.n(160),
+        height:Dimention.n(140),
+        // backgroundColor:'red',
+        borderRadius:Dimention.n(16),
+        margin:3,
+        overflow: 'hidden',
+        elevation:Dimention.n(6)
+        
+       
+    },
+    cardData:{
+      margin:Dimention.n(16),
+      color:'#FFFFFF',
+      fontFamily:'Poppins-SemiBold',
+      fontSize:Dimention.n(14)
+      
+       
+    }
 })
 
